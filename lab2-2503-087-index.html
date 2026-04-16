@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字展销平台首页 - 春韵</title>
+    <link rel="stylesheet" href="lab2-2503-087-index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../实验2/img/xiaohui.webp"  alt="鲁东大学图书网，春韵图书展销平台">
+        </div>
+        <div class="main-title">春韵数字展销平台</div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">图书分类</a></li>
+                <li><a href="#">热门推荐</a></li>
+                <li><a href="#">新书上市</a></li>
+                <li><a href="#">关于我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="left-sidebar">
+            <h3>图书分类</h3>
+            <ul>
+                <li><a href="#">文学小说</a></li>
+                <li><a href="#">计算机技术</a></li>
+                <li><a href="#">经管励志</a></li>
+                <li><a href="#">少儿读物</a></li>
+                <li><a href="#">生活艺术</a></li>
+            </ul>
+        </aside>
+
+        <!-- 中间栏：图书展示区 -->
+        <main class="center-content">
+            <!-- 首页Banner -->
+            <div class="banner">
+                <img src="../实验2/img/bannce1.webp" alt="春季图书展销季">
+            </div>
+
+            <!-- 热门推荐（浮动排列） -->
+            <section class="hot-books">
+                <h2>热门推荐</h2>
+                <div class="book-list">
+                    <!-- 第一本：鼠标悬停效果（父相子绝） -->
+                    <div class="book-item">
+                        <img src="../实验2/img/book1.webp" alt="畅销图书1">
+                        <div class="book-info">
+                            <h4>《深入理解计算机系统》</h4>
+                            <p>￥99.00</p>
+                            <button class="buy-btn">立即购买</button>
+                        </div>
+                    </div>
+                    <div class="book-item">
+                        <img src="../实验2/img/book2.webp" alt="畅销图书2">
+                        <div class="book-info">
+                            <h4>《算法导论》</h4>
+                            <p>￥128.00</p>
+                            <button class="buy-btn">立即购买</button>
+                        </div>
+                    </div>
+                    <div class="book-item">
+                        <img src="../实验2/img/book3.webp" alt="畅销图书3">
+                        <div class="book-info">
+                            <h4>《Python编程从入门到实践》</h4>
+                            <p>￥89.00</p>
+                            <button class="buy-btn">立即购买</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 新书上市（Table布局） -->
+            <section class="new-books">
+                <h2>新书上市</h2>
+                <table class="new-book-table">
+                    <thead>
+                        <tr>
+                            <th>图书封面</th>
+                            <th>图书名称</th>
+                            <th>作者</th>
+                            <th>定价</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="../实验2/img/book6.webp" alt="新书1"></td>
+                            <td>《AI时代的编程思维》</td>
+                            <td>李子熙</td>
+                            <td>￥79.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="../实验2/img/book5.webp" alt="新书2"></td>
+                            <td>《前端开发实战指南》</td>
+                            <td>张小明</td>
+                            <td>￥89.00</td>
+                        </tr>
+                        <tr>
+                            <td><img src="../实验2/img/book4.webp" alt="新书3"></td>
+                            <td>《数据结构与算法分析》</td>
+                            <td>王铭瑄</td>
+                            <td>￥99.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <!-- 右侧促销信息区域 -->
+    <aside class="right-sidebar">
+         <!-- 顶部限时5折banner -->
+        <div class="promo-banner">
+    <span class="discount-tag">限时5折</span>
+        </div>
+
+  <!-- 促销信息标题 -->
+  <h2 class="section-title">促销信息</h2>
+
+  <!-- 促销卡片列表 -->
+  <div class="promo-list">
+    <!-- 卡片1：全场满减 -->
+    <div class="promo-card">
+      <h3 class="card-title">全场满减活动</h3>
+      <p class="card-desc">满100元减20元，满200元减50元，多买多减！</p>
+    </div>
+
+    <!-- 卡片2：新用户专享 -->
+    <div class="promo-card">
+      <h3 class="card-title">新用户专享</h3>
+      <p class="card-desc">新用户注册即送50元优惠券，首单立减！</p>
+    </div>
+
+    <!-- 卡片3：会员专享折扣 -->
+    <div class="promo-card">
+      <h3 class="card-title">会员专享折扣</h3>
+      <p class="card-desc">VIP会员享受全场9折优惠，还有专属礼品！</p>
+    </div>
+
+    <!-- 卡片4：限时特价 -->
+    <div class="promo-card">
+      <h3 class="card-title">限时特价</h3>
+      <p class="card-desc">精选图书限时特价，低至5折，抢完即止！</p>
+    </div>
+  </div>
+    </aside>
+        
+            
+    </div>
+    
+    <div class="main-container clearfix">
+    </div>
+
+    <!-- 3. 页脚 -->
+    <footer class="footer">
+        <p>© 2026 春韵数字展销平台 版权所有 | 鲁东大学计算机学院实验作品</p>
+    </footer>
+</body>
+</html>
